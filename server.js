@@ -1,7 +1,10 @@
 const express = require('express');
-
 const app = express();
 
+//DB Connection
+require("./model/database")()
+
+//controller
 const todoController = require("./controllers/todoController")
 
 //Template Engine
