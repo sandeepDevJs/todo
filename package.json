@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "TODO app with mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepDevJs/TODO-app.git"
+  },
+  "keywords": [
+    "TODO",
+    "nodejs",
+    "expressjs",
+    "ejs",
+    "mongoosejs",
+    "mongodb"
+  ],
+  "author": "sandeepDevJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepDevJs/TODO-app/issues"
+  },
+  "homepage": "https://github.com/sandeepDevJs/TODO-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
