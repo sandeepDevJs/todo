@@ -1,5 +1,6 @@
 $(document).ready( function(){
 
+    //create todo on submit
     $("form").submit(function(e){
         let task = $("form input").val();
         $.ajax({
@@ -13,6 +14,7 @@ $(document).ready( function(){
         
     });
 
+    //delete todo on click
     $("li").click(function () {
         let data = $(this).text()
         $.ajax({
